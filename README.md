@@ -2,7 +2,14 @@
 
 A little repository with JS codes samples to practise React, Node and React Native
 
-## Rodando o projeto 
+## Rodando o projeto Back
+
+`yarn dev`
+
+Acesso pela porta https://localhost:3333
+
+
+## Rodando o projeto Front
 
 `yarn webpack-dev-server --mode development`
 
