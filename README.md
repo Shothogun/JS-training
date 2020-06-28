@@ -2,8 +2,13 @@
 
 A little repository with JS codes samples to practise React, Node and React Native
 
-## Front-end project setup
+## Rodando o projeto 
 
+`yarn webpack-dev-server --mode development`
+
+Acesso pela porta https://localhost:8080
+
+## Front-end project setup
 
 ### Configurando Babel
 - Entrar no diretório do projeto e digitar: `yarn init -y`
