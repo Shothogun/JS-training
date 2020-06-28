@@ -38,25 +38,6 @@ Acesso pela porta https://localhost:8080
   - Configurar o `webpack.config.js`
   - Executar `yarn webpack-dev-server --mode development`
 
-### Componetização
-- Componente: função JS que renderiza HTML
-- Arquivos de componetização **começam com letra maiúscula**
-- Fragments: <>
-  - Serve para colocar dois componentes consecutivos sem a necessidade de colocar uma Tag que envolva eles
-
-### Propriedade
-- Informação que pode ser passada para o componente pai para filho
-
-#### Estado
-- useState: retorna
-  1. Valor inicial da variavel
-  2. Funcao de atualizacao da variavel
-
-#### Imutabilidade
-- Variavel não podem ser modificadas, mas recriadas para terem novos valores
-
-- Operador `...`: percorrer um array
-
 ### Importando CSS e Imagens
 
 #### Configurando CSS
@@ -103,20 +84,6 @@ Acesso pela porta https://localhost:8080
   },
 ```
 - E modificar   ```"main": "index.js",``` por ```"main": "src/index.js",```
-
-### Tipos de parametros
-- Query params: Filtros e paginação
-- Route params: Identificar recursos(atualizar/deletar)
-- Request body: Conteúdo para a crição e atualização (JSON)
-
-### Middlewares
-
-- Interceptador de requisições que interrompe totalmente a requisição ou altera dados da requisição
-- Os middlewares também podem ser inseridos dessa forma:
-```
-app.get('/projects', middleware1, middleware 2,  (request, response) => {
-...
-}
 ```
 
 
